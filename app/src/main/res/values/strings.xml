@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Security Zerg</string>
+    <string name="Mensaje_Inicio">Deja tus preocupaciónes en manos de la tecnología</string>
+    <string name="TuNombre">Miguel Steven Panqueva Salazar</string>
+    <string name="Registro">Registrate</string>
+    <string name="Comienza">Comienza</string>
+    <string name="Ingreso">Ingreso</string>
+    <string name="RecuperarContraseña">Recuperar Contraseña</string>
+    <string name="IngresoGoogle">Ingresar con google</string>
+
+
+
+</resources>

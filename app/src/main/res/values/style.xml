@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    --EditTextRounded
+    <style name="EditTextRounded" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text_rounded</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+    --btn_edit
+    <style name="BtnEdit" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/bnt_edit</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+
+
+</resources>
