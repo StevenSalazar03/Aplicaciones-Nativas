@@ -15,23 +15,23 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.259"
+        app:layout_constraintVertical_bias="0.257"
         app:srcCompat="@drawable/icono" />
 
     <TextView
         android:id="@+id/nombreApp"
         android:layout_width="283dp"
         android:layout_height="85dp"
-        android:fontFamily="sans-serif-condensed-medium"
+        android:fontFamily="serif"
         android:text="@string/app_name"
         android:textAlignment="center"
         android:textColor="#F4F4F4"
-        android:textSize="48sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
+        app:layout_constraintVertical_bias="0.662" />
 
     <TextView
         android:id="@+id/nombreUsuario"
