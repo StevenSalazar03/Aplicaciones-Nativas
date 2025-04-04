@@ -104,7 +104,7 @@
         android:layout_height="65dp"
         android:backgroundTint="@color/azul"
         android:fontFamily="serif"
-        android:text="Ingresar"
+        android:text="@string/ingresar"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="italic"

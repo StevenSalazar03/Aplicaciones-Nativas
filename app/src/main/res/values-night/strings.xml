@@ -1,16 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Security Zerg</string>
-    <string name="Mensaje_Inicio">Deja tus preocupaciónes en manos de la tecnología</string>
-    <string name="TuNombre">Miguel Steven Panqueva Salazar</string>
-    <string name="Registro">Registrate</string>
-    <string name="Comienza">Comienza</string>
-    <string name="Ingreso">Ingreso</string>
-    <string name="RecuperarContraseña">Recuperar Contraseña</string>
-    <string name="IngresoGoogle">Ingresar con google</string>
     <string name="bienvenido">Bienvenido</string>
     <string name="inicio">inicio</string>
     <string name="productos">Productos</string>
-    <string name="categorias">Categorias</string>
     <string name="pantalla_de_inicio">Pantalla de inicio</string>
     <string name="productos_nuestros">Productos nuestros</string>
     <string name="navigation_drawer_open">Abror</string>
@@ -18,12 +10,9 @@
     <string name="correo">Correo</string>
     <string name="tel_fono">Teléfono</string>
     <string name="apellidos">Apellidos</string>
-    <string name="nombres">Nombres</string>
     <string name="editar_campos">Editar Campos</string>
     <string name="carrito">Carrito</string>
     <string name="editar_perfil">Editar Perfil</string>
     <string name="guardar_cambios">Guardar Cambios</string>
     <string name="ingresar">Ingresar</string>
-
-
 </resources>

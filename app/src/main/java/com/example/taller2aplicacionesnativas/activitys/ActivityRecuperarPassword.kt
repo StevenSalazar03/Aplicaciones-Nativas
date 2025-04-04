@@ -1,4 +1,4 @@
-package com.example.taller2aplicacionesnativas
+package com.example.taller2aplicacionesnativas.activitys
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.taller2aplicacionesnativas.R
 
 class ActivityRecuperarPassword : AppCompatActivity() {
 
@@ -17,11 +18,9 @@ class ActivityRecuperarPassword : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recuperarpassword)
 
-        // Inicializar vistas
         editTextCorreo = findViewById(R.id.editT_correoRecuperacion)
         buttonRecuperar = findViewById(R.id.btn_recuperacion)
 
-        // Archivo para el almacenamiento local
         sharedPreferences = getSharedPreferences("UserData", MODE_PRIVATE)
 
         buttonRecuperar.setOnClickListener {

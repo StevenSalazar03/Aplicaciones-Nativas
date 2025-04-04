@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/rojo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/user"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Nombres -->
+        <TextView android:id="@+id/tv_nombresP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombres"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/blanco"
+            android:textSize="14sp"/>
+        <EditText android:id="@+id/et_nombresP"
+            style="@style/EditTextRounded"
+            android:layout_width="286dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <!-- Apellidos -->
+        <TextView android:id="@+id/tv_apellidosP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apellidos"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/blanco"
+            android:textSize="14sp"/>
+        <EditText android:id="@+id/et_apellidosP"
+            style="@style/EditTextRounded"
+            android:layout_width="286dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Correo -->
+        <TextView android:id="@+id/tv_correoP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/correo"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/blanco"
+            android:textSize="14sp"
+            />
+        <EditText android:id="@+id/et_correoP"
+            style="@style/EditTextRounded"
+            android:layout_width="286dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Teléfono -->
+        <TextView android:id="@+id/tv_telefonoP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tel_fono"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/blanco"
+            android:textSize="14sp"
+            />
+        <EditText android:id="@+id/et_telefonoP"
+            style="@style/EditTextRounded"
+            android:layout_width="286dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <!-- Botones -->
+        <Button android:id="@+id/btn_editar"
+            android:layout_width="236dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/azul"
+            android:fontFamily="serif"
+            android:text="@string/editar_campos"
+            android:textColor="@color/negro"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.792"
+            app:strokeColor="@color/negro"
+            app:strokeWidth="3dp"/>
+        <Button android:id="@+id/btn_guardar"
+            android:layout_width="236dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/azul"
+            android:fontFamily="serif"
+            android:text="@string/guardar_cambios"
+            android:textColor="@color/negro"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.792"
+            app:strokeColor="@color/negro"
+            app:strokeWidth="3dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_grafica.xml"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.taller2aplicacionesnativas.fragments.InicioFragment"
+        android:label="@string/inicio"
+        app:defaultNavHost="true"
+        />
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.taller2aplicacionesnativas.fragments.ProductsFragment"
+        android:label="@string/productos"
+        app:defaultNavHost="true"
+        />
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.example.taller2aplicacionesnativas.fragments.CarritoFragment"
+        android:label="@string/carrito"
+        app:defaultNavHost="true"
+        />
+    <fragment
+        android:id="@+id/categoriasFragment"
+        android:name="com.example.taller2aplicacionesnativas.fragments.CategFragments"
+        android:label="@string/categorias"
+        app:defaultNavHost="true"
+        >
+        <action
+            android:id="@+id/action_categoriasFragment_self"
+            app:destination="@id/categoriasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.taller2aplicacionesnativas.fragments.EditPerfilFragment"
+        android:label="@string/editar_perfil"
+        app:defaultNavHost="true"
+        />
+</navigation>

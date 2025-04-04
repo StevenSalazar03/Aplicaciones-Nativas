@@ -13,26 +13,27 @@
         android:theme="@style/Theme.Taller2AplicacionesNativas"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
+            android:name=".activitys.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityHome"
+
+        <activity android:name=".activitys.ActivityHome"
             android:exported="true">
         </activity>
-        <activity android:name=".ActivityLogin"
+        <activity android:name=".activitys.ActivityLogin"
             android:exported="true">
         </activity>
-        <activity android:name=".ActivityPerfil"
+        <activity android:name=".activitys.ActivityPerfil"
             android:exported="true">
         </activity>
-        <activity android:name=".ActivityRecuperarPassword"
+        <activity android:name=".activitys.ActivityRecuperarPassword"
             android:exported="true">
         </activity>
-        <activity android:name=".ActivityRegistro"
+        <activity android:name=".activitys.ActivityRegistro"
             android:exported="true">
         </activity>
 
